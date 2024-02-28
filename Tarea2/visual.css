@@ -1,0 +1,36 @@
+body {
+    background-color: #333; 
+    color: #fff; 
+}
+#lista-trabajadores {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    color: #000; 
+    padding: 20px;
+    margin-top: 20px; 
+}
+
+#lista-trabajadores .list-group-item {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+}
+.container {
+    margin-top: 50px;
+  }
+  #resumen-departamentos {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    color: #000; 
+}
+
+#resumen-departamentos p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion de trabajadores</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="visual.css">
+  <script src="codigo.js"></script>
+  <style>
+   
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-center">Sistema de gestión de trabajadores</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-7">
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Introduce el nombre">
+          </div>
+          <div class="form-group">
+            <label for="apellido">Apellido</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Introduce el apellido">
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo</label>
+            <input type="email" class="form-control" id="correo" placeholder="Introduce el correo">
+          </div>
+          <div class="form-group">
+            <label for="departamento">Departamento</label>
+            <select class="form-control" id="departamento">
+              <option value="IT">IT</option>
+              <option value="Marketing">Marketing</option>
+              <option value="Ventas">Ventas</option>
+              <option value="Administración">Administración</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+      </div>
+      <div class="col-lg-5">
+        <h2 class="text-center">Trabajadores agregados</h2>
+        <ul id="lista-trabajadores" class="list-group text-center">
+        </ul>
+      </div>
+
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2>Trabajadores por departamento</h2>
+        <div id="resumen-departamentos">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
