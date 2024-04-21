@@ -1,44 +1,39 @@
-/* Estilos para las cartas */
 .card {
-    width: calc(50% - 30px); /* Define el ancho de cada tarjeta y considera el margen derecho */
-    height: 400px; /* Altura fija para todas las tarjetas */
-    margin-bottom: 20px; /* Añade margen inferior para separar las tarjetas */
-    margin-right: 20px; /* Añade margen derecho para separar las tarjetas */
-    background-color: #f8f9fa; /* Color de fondo gris */
-    border-radius: 10px; /* Borde redondeado */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    width: calc(50% - 30px); 
+    height: 400px;
+    margin-bottom: 20px; 
+    margin-right: 20px; 
+    background-color: #f8f9fa; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilos para la imagen de la carta */
 .card-img-top {
-    max-height: 200px; /* Altura máxima de la imagen */
-    object-fit: cover; /* La imagen se ajusta al contenedor */
-    border-top-left-radius: 10px; /* Borde redondeado superior izquierdo */
-    border-top-right-radius: 10px; /* Borde redondeado superior derecho */
+    max-height: 200px;
+    object-fit: cover; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
 }
 
-/* Estilos para el cuerpo de la carta */
 .card-body {
-    padding: 20px; /* Espaciado interno */
-    height: calc(100% - 200px); /* Ajusta la altura del cuerpo de la tarjeta */
-    display: flex; /* Usa un modelo de caja flexible */
-    flex-direction: column; /* Alinea el contenido verticalmente */
-    justify-content: space-between; /* Distribuye el contenido verticalmente */
+    padding: 20px; 
+    height: calc(100% - 200px); 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
 }
 
-/* Estilos para el título de la carta */
 .card-title {
-    font-size: 1.25rem; /* Tamaño de fuente */
+    font-size: 1.25rem; 
 }
 
-/* Estilos para el texto del cuerpo de la carta */
 .card-text {
-    color: #333; /* Color de texto */
+    color: #333; 
 }
 
 .cart {
     position: fixed;
-    top: 70px; /* Ajusta la posición debajo de la barra de navegación */
+    top: 70px; 
     right: 0;
     width: 300px;
     background-color: #fff;
