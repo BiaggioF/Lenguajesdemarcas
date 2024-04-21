@@ -116,7 +116,6 @@ document.addEventListener("DOMContentLoaded", function () {
             categorySelect.appendChild(option);
         });
 
-        // Agregar las opciones de marca
         brands.forEach(brand => {
             const option = document.createElement("option");
             option.textContent = brand;
